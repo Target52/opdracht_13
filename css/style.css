@@ -1,0 +1,64 @@
+.google:hover {
+    color: lightsteelblue;
+    font-weight: bold;
+}
+
+.fbook:active {
+    color: red;
+    font-style: italic; 
+}
+
+.igram:visited {
+    color: yellow 
+}
+
+.tveld:focus {
+    color: green;
+    font-size: 20px; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    color: white;
+    display: flex;
+    
+}
+
+
+
+.navigation li {
+    padding-right: 50px;
+    font-size: 24px;
+    background-color: darkblue;
+}
+
+.navigation li:hover {
+    background-color: lightsteelblue;
+}
+
+.navigation li + li{
+    padding-left: 50px;
+}
+
+li.currentPage {
+    background-color: lightskyblue;
+}
+
+input:focus {
+    border: aquamarine solid 1px;
+} 
+
+
+/*
+.navigation.currentPage {
+    background-color: #26252d;
+}
+
+*/
+
